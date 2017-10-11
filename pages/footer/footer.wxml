@@ -1,0 +1,34 @@
+<!--pages/footer/footer.wxml-->
+<template name="footer">
+  <view>
+    <view class="a" bindTap="recipeTap">食谱</view>
+    <view class="inline">|</view>
+    <view class="a">橱柜</view>
+    <view class="inline">|</view>
+    <view class="a">仓库</view>
+    <view class="inline">|</view>  
+    <view class="a">名片</view>
+    <view></view>
+    <view class="a">商店</view>
+    <view class="inline">|</view>  
+    <view class="a">酒吧</view>
+    <view class="inline">|</view>  
+    <view class="a">菜场</view>
+    <view class="inline">|</view>  
+    <view class="a">神殿</view>
+    <view></view>
+    <view class="a">排行</view>
+    <view class="inline">|</view>  
+    <view class="a">协会</view>
+    <view class="inline">|</view>  
+    <view class="a">任务</view>
+    <view class="inline">|</view>  
+    <view class="a">论坛</view>
+    <view></view>
+    <view class="a">美味广场</view>
+    <view class="inline">|</view>
+    <view class="a">魔钻专区</view>
+    <view class="inline">|</view>
+    <view class="a">小镇客服</view>
+  </view>
+</template>

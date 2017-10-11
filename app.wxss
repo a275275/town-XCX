@@ -1,0 +1,39 @@
+/**app.wxss**/
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 200rpx 0;
+  box-sizing: border-box;
+} 
+
+input {
+  border: 1px black solid;
+}
+input, button {
+  margin: 5px;
+  padding: 5px;
+}
+
+.a {
+  display: inline;
+  color: blue;
+  margin: 0 5px;
+}
+.a-hover {
+  color: red;
+}
+.float-l {
+  float: left;
+}
+.float-r {
+  float: right;
+}
+.inline {
+  display: inline;
+}
+.no-margin {
+  margin: 0;
+}

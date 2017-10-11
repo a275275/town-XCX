@@ -1,0 +1,5 @@
+<!--pages/login/login.wxml-->
+<input bindblur="unameInput" placeholder="用户名" />
+<input bindblur="upwdInput" password placeholder="密码" />
+<button type="primary" size="mini" class="float-r">微信一键登录</button>
+<button size="mini" bindtap="loginTap">登陆</button>

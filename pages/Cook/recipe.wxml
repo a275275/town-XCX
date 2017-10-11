@@ -1,0 +1,11 @@
+<!--pages/Cook/recipe.wxml-->
+<view>
+  <view class="a">食谱指数</view>
+  <view class="inline">：3949(第9128名)</view>
+</view>
+<view>
+  <view class="inline">可学</view>
+  <view class="a">已学</view>
+  <view class="a">未学</view>
+  <view class="a">神秘</view>
+</view>

@@ -1,0 +1,16 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/login/login",
+    "pages/Town/restaurant/restaurant",
+    "pages/Cook/recipe",
+    "pages/footer/footer"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "美味小镇",
+    "navigationBarTextStyle": "black"
+  }
+}

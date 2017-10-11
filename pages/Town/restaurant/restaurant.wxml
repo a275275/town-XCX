@@ -1,0 +1,94 @@
+<!--pages/Town/restaurant/restaurant.wxml-->
+<view>
+  <navigator class="inline" hover-class="a-hover" url="">我的餐厅</navigator>
+  <navigator class="a inline" hover-class="a-hover" url="" open-type="">好友餐厅</navigator>
+  <navigator class="a inline" hover-class="a-hover" url="" open-type="">赛厨大厅</navigator>
+</view>
+<view>
+  <view class="inline">[公告]</view>
+  <view class="a">公告标题</view>
+</view>
+<view>
+  <view class="inline">[广播]</view>
+  <view class="a">广播标题</view>
+</view>
+
+<!-- 今日活跃度：27查看奖励 -->
+<!-- 有10位乐斗胜利者鄙视过你 -->
+<!-- [活 动]5月初夏活动送好礼 -->
+
+<view>
+  <view wx:if="{{restaurant.sex > 0}}" class="inline">[{{restaurant.sex == 1 ? "♂" : "♀"}}]</view>
+  <view class="inline">{{restaurant.name}}</view>
+  <view class="inline">({{restaurant.oilcan > 0 ? "营业中" : "打烊"}})</view>
+  <view class="a">改名</view>
+  <view class="a">刷新</view>
+</view>
+<view>
+  <view class="inline">油壶{{restaurant.oilcan}}毫升</view>
+  <view class="a">添油</view>
+  <view class="a">扩容</view>
+</view>
+
+<!-- 最新收益：+395金币 +238经验 -->
+
+<view>
+  <view class="inline">星级：{{restaurant.star}}</view>
+  <view class="a">申报</view>
+</view>
+<view>
+  <view class="inline">等级：</view>
+  <view class="a">{{restaurant.level}}级</view>
+  <view class="inline">(等级百分比或名次)</view>
+</view>
+<view>
+  <view class="inline">金牌菜：</view>
+  <view class="a">0/243</view>
+  <view class="inline">(学菜百分比或名次)</view>
+</view>
+<view>
+  <view class="inline">荣誉：无(疯狂开发中)</view>
+  <view class="a">设置</view>
+</view>
+<view>金币：2312313</view>
+<view>体力：100/100</view>
+<view>员工：23/23</view>
+<view>
+  <view class="inline">地处：综合一街</view>
+  <view class="a">搬家</view>
+</view>
+<view>
+  <view class="a">翻柜</view>
+  <view class="a">巡店</view>
+  <view class="a">聊天</view>
+  <view class="a">厨具</view>
+  <view class="a">教室</view>
+</view>
+<view>
+  <view class="inline">[特色]</view>
+  <view class="a">烹制</view>
+</view>
+<view>
+  <view class="inline">[设施]</view>
+  <view class="a">摆设</view>
+  <view class="a">摆设</view>
+  <view class="a">摆设</view>
+</view>
+<view>
+  <view class="inline">[</view>
+  <view class="a no-margin">动态</view>
+  <view class="inline">]</view>
+  <view class="a">动态内容</view>
+</view>
+<view style="margin-bottom: 20px;">
+  <view class="inline">[</view>
+  <view class="a no-margin">留言</view>
+  <view class="inline">]</view>
+  <view class="a">留言内容</view>
+  <view class="inline">没有任何好友给你留言</view>
+</view>
+
+<import src="../../footer/footer"/>
+<template is="footer" data=""/>
+<!-- <include src="../../footer.wxml"/> {{text: 'forbar'}}-->
+
