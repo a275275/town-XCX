@@ -4,7 +4,7 @@
     "pages/logs/logs",
     "pages/login/login",
     "pages/Town/restaurant/restaurant",
-    "pages/Cook/recipe",
+    "pages/Cook/recipe/recipe",
     "pages/footer/footer"
   ],
   "window": {

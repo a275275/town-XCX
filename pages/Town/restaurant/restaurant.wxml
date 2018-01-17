@@ -1,8 +1,8 @@
 <!--pages/Town/restaurant/restaurant.wxml-->
 <view>
-  <navigator class="inline" hover-class="a-hover" url="">我的餐厅</navigator>
-  <navigator class="a inline" hover-class="a-hover" url="" open-type="">好友餐厅</navigator>
-  <navigator class="a inline" hover-class="a-hover" url="" open-type="">赛厨大厅</navigator>
+  <navigator class="inline" url="">我的餐厅</navigator>
+  <navigator class="a" url="" open-type="">好友餐厅</navigator>
+  <navigator class="a" url="" open-type="">赛厨大厅</navigator>
 </view>
 <view>
   <view class="inline">[公告]</view>
@@ -80,7 +80,7 @@
   <view class="inline">]</view>
   <view class="a">动态内容</view>
 </view>
-<view style="margin-bottom: 20px;">
+<view>
   <view class="inline">[</view>
   <view class="a no-margin">留言</view>
   <view class="inline">]</view>
@@ -88,7 +88,4 @@
   <view class="inline">没有任何好友给你留言</view>
 </view>
 
-<import src="../../footer/footer"/>
-<template is="footer" data=""/>
-<!-- <include src="../../footer.wxml"/> {{text: 'forbar'}}-->
-
+<include src="../../template/menu.wxml"/>

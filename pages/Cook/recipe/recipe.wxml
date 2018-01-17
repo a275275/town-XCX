@@ -1,0 +1,21 @@
+<!--pages/Cook/recipe.wxml-->
+<view>
+  <view class="a">食谱指数</view>
+  <view class="inline">：n(第n名 开发中)</view>
+</view>
+<view>
+  <view class="inline">可学</view>
+  <view class="a">已学</view>
+  <view class="a">未学</view>
+  <view class="a">神秘</view>
+</view>
+<view wx:for="{{recipe}}" wx:key="{{page}}">
+  <view class="inline">[综]</view>
+  <view class="a">食谱名称</view>
+  <view class="a">学习</view>
+</view>
+
+<import src="../../template/page.wxml"/>
+<template is="page" data="{{page}}"/>
+
+<include src="../../template/menu.wxml"/>

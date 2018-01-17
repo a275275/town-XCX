@@ -22,7 +22,16 @@ input, button {
   color: blue;
   margin: 0 5px;
 }
-.a-hover {
+.a:link {
+  color: blue;
+}
+.a:visited {
+  text-decoration-line: none;
+}
+.a:hover {
+  text-decoration-line: underline;
+}
+.a:active {
   color: red;
 }
 .float-l {

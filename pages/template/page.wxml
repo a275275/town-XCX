@@ -1,0 +1,8 @@
+<!--pages/template/page/page.wxml-->
+<template name="page">
+  <view wx:if="{{page.prev_page_url}}" class="a" bindtap="pageTap" data-page="1">首页</view>
+  <view wx:if="{{page.prev_page_url}}" class="a" bindtap="pageTap" data-page="{{page.current_page - 1}}">上页</view>
+  <view wx:if="{{page.next_page_url}}" class="a" bindtap="pageTap" data-page="{{page.current_page + 1}}">下页</view>
+  <view wx:if="{{page.next_page_url}}" class="a" bindtap="pageTap" data-page="{{page.last_page}}">末页</view>
+  <view>第 {{page.current_page}}/{{page.last_page}} 页</view>
+</template>

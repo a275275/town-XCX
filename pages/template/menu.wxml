@@ -1,0 +1,37 @@
+<!--pages/menu/menu.wxml-->
+<view style="margin-top: 20px;">
+  <view>
+    <navigator url="../../Cook/recipe/recipe" open-type="redirect" class="a">食谱</navigator>
+    <view class="inline">|</view>
+    <navigator url="" open-type="redirect" class="a">橱柜</navigator>
+    <view class="inline">|</view>
+    <navigator url="" open-type="redirect" class="a">仓库</navigator>
+    <view class="inline">|</view>
+    <navigator url="" open-type="redirect" class="a">名片</navigator>
+  </view>
+  <view>
+    <navigator class="a">商店</navigator>
+    <view class="inline">|</view>  
+    <navigator class="a">酒吧</navigator>
+    <view class="inline">|</view>  
+    <navigator class="a">菜场</navigator>
+    <view class="inline">|</view>  
+    <navigator class="a">神殿</navigator>
+  </view>
+  <view>
+    <navigator class="a">排行</navigator>
+    <view class="inline">|</view>  
+    <navigator class="a">协会</navigator>
+    <view class="inline">|</view>  
+    <navigator class="a">任务</navigator>
+    <view class="inline">|</view>  
+    <navigator class="a">论坛</navigator>
+  </view>
+  <view>
+    <navigator class="a">美味广场</navigator>
+    <view class="inline">|</view>
+    <navigator class="a">魔钻专区</navigator>
+    <view class="inline">|</view>
+    <navigator class="a">小镇客服</navigator>
+  </view>
+</view>
